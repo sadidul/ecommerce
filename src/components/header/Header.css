@@ -1,0 +1,27 @@
+.nav-menu {
+    display: flex;
+    padding: 1rem;
+}
+/*  Behind the scenes a <Link> renders an <a> with a real href */
+a {
+    text-decoration: none;
+}
+
+a:focus, a:hover, a:visited {
+    color: black;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    margin-left: auto;
+}
+
+li {
+    display: inline-block;
+    margin: 0 1rem;
+}
